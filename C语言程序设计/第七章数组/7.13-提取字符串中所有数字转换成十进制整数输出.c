@@ -1,12 +1,12 @@
 #include <stdio.h>
-/*输入一个回车符为结束标志的字符串(少于10个字符) 提取其中所有的数字字符
+/*输入一个回车符为结束标志的字符串(少于80个字符) 提取其中所有的数字字符
 ('0'...'9') 将其转换为一个十进制整数输出*/
 
 int main(void) {
 	int i, num;
 	char str[10];
 	
-	printf("Enter string(max nine):");
+	printf("Enter string:");
 	i = 0;
 	while ((str[i] = getchar()) != '\n') {
 		i++;
