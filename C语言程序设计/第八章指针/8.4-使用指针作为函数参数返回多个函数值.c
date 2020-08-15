@@ -24,7 +24,7 @@ void month_day(int year, int yearday, int *pmonth, int *pday) {
 	for (j = 1; yearday > tab[leap][j]; j++) {
 		yearday -= tab[leap][j];
 	}
-	printf("j=%d, yearday=%d \n", j, yearday);
+	 printf("j=%d, yearday=%d \n", j, yearday);
 	*pmonth = j;
 	*pday = yearday;
 } 
